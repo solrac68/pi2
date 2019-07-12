@@ -1,0 +1,20 @@
+# Datasource configuration in dev environment
+server:
+  context-path: /heroapi
+  port: 8080
+  
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      
+  datasource:
+    url: jdbc:postgresql://localhost:5433/tour_of_heroes
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: solrac2013
+    

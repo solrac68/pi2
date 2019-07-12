@@ -1,0 +1,11 @@
+co\udea\heroes\api\exception\DataNotFoundException.class
+co\udea\heroes\api\domain\Hero.class
+co\udea\heroes\api\HeroesApiApplication.class
+co\udea\heroes\api\service\impl\HeroServiceImpl.class
+co\udea\heroes\api\service\HeroService.class
+co\udea\heroes\api\exception\GeneralException.class
+co\udea\heroes\api\repository\HeroRepository.class
+co\udea\heroes\api\util\Messages.class
+co\udea\heroes\api\controller\HeroController.class
+co\udea\heroes\api\config\CORSFilter.class
+co\udea\heroes\api\config\SwaggerConfig.class
